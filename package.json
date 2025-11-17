@@ -1,0 +1,10 @@
+{
+ "name": "actions-demo",
+ "version": "1.0.0",
+ "private": true,
+ "description": "Simple demo project for GitHub Actions",
+ "scripts": {
+   "test": "echo \"No tests yet\" && exit 0"
+ },
+ "dependencies": {}
+}
