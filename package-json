@@ -1,0 +1,6 @@
+- name: create-json
+  id: create-json
+  uses: step-security/create-json@v1
+  with:
+    name: "credentials.json"
+    json: ${{ secrets.MY_JSON }} # Or a direct JSON string: '{"key": "value"}'
